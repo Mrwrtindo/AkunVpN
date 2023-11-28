@@ -29,3 +29,16 @@ proxies:
       headers:
         Host: sb.scorecardresearch.com
     udp: true
+  - name: ATHATR
+    server: atha.jajanvpn.top
+    port: 443
+    type: trojan
+    password: siadmin
+    skip-cert-verify: true
+    sni: sb.scorecardresearch.com
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: atha.jajanvpn.top
+    udp: true
