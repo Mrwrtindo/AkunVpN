@@ -1,16 +1,14 @@
 proxies:
-  - name: IDVLESS
-    server: bz.jajanvpn.top
+  - name: FAST
+    server: quiz.vidio.com
     port: 443
-    type: vless
-    uuid: 34ef9592-558f-44db-8ff6-6314c4b9d6ca
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 44c76770-fda2-11ee-9db7-1239d0255272
     skip-cert-verify: true
-    servername: sb.scorecardresearch.com
+    sni: sg-4.test3.net
     network: ws
     ws-opts:
-      path: /vless
+      path: /howdy
       headers:
-        Host: sb.scorecardresearch.com
+        Host: sg-4.test3.net
     udp: true
