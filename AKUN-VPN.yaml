@@ -1,16 +1,16 @@
 proxies:
   - name: FAST
-    server: quiz.vidio.com
+    server: quiz.int.vidio.com
     port: 443
     type: trojan
-    password: 44c76770-fda2-11ee-9db7-1239d0255272
+    password: 69ded3a7-5e6d-4928-a0b3-f60085d51a5c
     skip-cert-verify: true
-    sni: sg-4.test3.net
+    sni: melbi2.stbvpn.xyz
     network: ws
     ws-opts:
-      path: /howdy
+      path: /trojanws
       headers:
-        Host: sg-4.test3.net
+        Host: melbi2.stbvpn.xyz
     udp: true
   - name: AKUN2
     server: quiz.vidio.com
