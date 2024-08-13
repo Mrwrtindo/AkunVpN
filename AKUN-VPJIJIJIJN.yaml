@@ -1,7 +1,7 @@
 proxies:
   - name: FAST
     server: quiz.vidio.com
-    port: 443
+    port: 44KKOO
     type: trojan
     password: 44c76770-fda2-11ee-9db7-1239d0255272
     skip-cert-verify: true
